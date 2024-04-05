@@ -18,7 +18,7 @@ const Contact: React.FC = () => {
         const chatId = process.env.REACT_APP_CHAT_ID;
         const url = `https://api.telegram.org/bot${token}/sendMessage`;
         try {
-            const response = await fetch('https://2ik2tcajo0.execute-api.us-east-2.amazonaws.com/apiTelegram', {
+            const response = await fetch('https://2ik2tcajo0.execute-api.us-east-2.amazonaws.com/$default/apiTelegram', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
