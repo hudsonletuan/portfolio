@@ -1,0 +1,336 @@
+#contact {
+    background: #3be5ff;
+}
+
+#contact *, #contact *:before, #contact *:after {
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+#contact body, #contact button, #contact input::placeholder, #contact textarea::placeholder {
+    font-family: 'Metropolis-Bold' , sans-serif;
+    letter-spacing: 1.4px;
+}
+
+#contact input, #contact textarea {
+    font-family: 'Metropolis-Light', sans-serif;
+    letter-spacing: 1.4px;
+    font-size: 16px !important;
+}
+#contact textarea {
+    height: 7em;
+}
+
+#contact .container {
+    flex: 0 1 700px;
+    margin: auto;
+    padding: 10px;
+}
+
+#contact .screen {
+    position: relative;
+    background: #3e3e3e;
+    border-radius: 15px;
+    box-shadow: 30px 40px 40px rgba(0, 0, 0, 0.8);
+}
+
+#contact .screen:after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 20px;
+    right: 20px;
+    bottom: 0;
+    border-radius: 15px;
+    z-index: -1;
+}
+
+#contact .screen-header {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    background: #4d4d4f;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+#contact .screen-header-left {
+    margin-right: auto;
+}
+
+#contact .screen-header-button {
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    margin-right: 3px;
+    border-radius: 8px;
+    background: white;
+}
+
+#contact .screen-header-button.close {
+    background: #ed1c6f;
+}
+
+#contact .screen-header-button.maximize {
+    background: #e8e925;
+}
+
+#contact .screen-header-button.minimize {
+    background: #74c54f;
+}
+
+#contact .screen-header-right {
+    display: flex;
+}
+
+#contact .screen-header-ellipsis {
+    width: 3px;
+    height: 3px;
+    margin-left: 2px;
+    border-radius: 8px;
+    background: #999;
+}
+
+#contact .screen-body {
+    display: flex;
+}
+
+#contact .screen-body-item {
+    flex: 1;
+    padding: 50px;
+}
+
+#contact .screen-body-item.left {
+    display: flex;
+    flex-direction: column;
+}
+#contact .screen-body-item.right {
+    display: flex;
+    flex-direction: column;
+    padding-left: 0;
+    width: 400px;
+}
+
+#contact .app-title {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    color: #FFFFFF;
+    font-size: 26px;
+    width: 350px;
+}
+
+#contact .app-title:after {
+    content: '';
+    display: block;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    width: 126px;
+    height: 4px;
+    background: #51d6ff;
+}
+
+#contact .app-social {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin-top: 50px;
+    color: #FFFFFF;
+    font-size: 22px;
+}
+
+#contact .app-social:after {
+    content: '';
+    display: block;
+    position: absolute;
+    left: 0;
+    bottom: -8px;
+    width: 88px;
+    height: 4px;
+    background: #47ff53;
+}
+
+#contact .app-phonemail {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    color: #FFFFFF;
+    font-size: 18px;
+}
+
+#contact .app-phonemail:after {
+    content: '';
+    display: block;
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    width: 131px;
+    height: 4px;
+    background: #FFEE56;
+}
+
+#contact .github-svg {
+    margin-top: 20px;
+    width: 50px;
+    height: auto;
+}
+
+#contact .app-contact {
+    margin-top: auto;
+    font-family: 'Metropolis-Light', sans-serif;
+    font-size: 18px;
+    color: #FFFFFF;
+}
+#contact .app-contact-phones svg {
+    margin: 5px 5px -8px 0;
+}
+#contact .app-contact a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+#contact .app-contact-mails {
+    margin-bottom: 5px;
+}
+#contact .app-contact .ios_mail svg {
+    width: 31px;
+    height: 31px;
+    background-image: url('./images/ios_mail.svg');
+    display: inline-block;
+    background-size: cover;
+}
+
+#contact .app-form-group {
+    margin-bottom: 15px;
+}
+
+#contact .app-form-group.buttons {
+    margin-bottom: 0;
+    text-align: right;
+}
+
+#contact .app-form-control {
+    width: 100%;
+    padding: 10px 0;
+    background: none;
+    border: none;
+    border-bottom: 1px solid #666;
+    color: #FFFFFF !important;
+    font-size: 14px;
+    outline: none;
+    transition: border-color .2s;
+}
+
+#contact .app-form-control::placeholder {
+    color: #666;
+}
+
+#contact .app-form-control:focus {
+    border-bottom-color: #FFFFFF;
+}
+
+#contact .app-form-button {
+    background: none;
+    border: none;
+    color: #FFFFFF;
+    font-size: 16px;
+    cursor: pointer;
+    border: solid 3px #FFFFFF;
+    border-radius: 10px;
+    padding: 20px;
+}
+#contact .app-form-button svg {
+    margin-left: 3px;
+    fill: #FFFFFF;
+}
+
+#contact .app-form-button:hover {
+    color: #4D4D4F;
+    background: #FFFFFF;
+    transition: 0.3s ease;
+}
+#contact .app-form-button:hover svg {
+    fill: #4D4D4F;
+}
+#contact .notifications {
+    margin-top: 10px;
+}
+
+@media screen and (max-width: 870px) {
+    .container .screen {
+        margin: 0 180px;
+    }
+    .screen-body {
+        flex-direction: column;
+    }
+
+    .app-title {
+        flex-direction: row;
+        font-size: 20px !important;
+    }
+    .app-title:after {
+        width: 99px !important;
+    }
+    .app-title span {
+        margin-right: 12px;
+    }
+    .app-social {
+        flex-direction: row;
+        font-size: 18px !important;
+        margin-top: 30px !important;
+    }
+    .app-social:after {
+        width: 73px !important;
+    }
+    .app-social-icons .github-svg {
+        width: 25px !important;
+    }
+    .app-social-icons .linkedin-svg {
+        height: 26px !important;
+        margin-left: -15px !important;
+        margin-bottom: -1px !important;
+    }
+    .app-phonemail {
+        flex-direction: row;
+        font-size: 16px !important;
+        margin-top: 15px !important;
+    }
+    .app-phonemail:after {
+        width: 118px !important;
+    }
+    .app-contact {
+        font-size: 16px !important;
+    }
+    .screen-body-item.left {
+        margin: -30px -11px !important;
+    }
+
+    .screen-body-item.right {
+        margin: auto;
+        margin-bottom: -10px !important;
+    }
+
+    .app-form {
+        width: 100%;
+        max-width: 400px;
+        margin-left: 20px;
+        margin-top: -50px;
+    }
+    #contact input, #contact textarea {
+        font-size: 14px !important;
+    }
+    #contact textarea {
+        height: 6em;
+    }
+    #contact .app-form-button {
+        font-size: 14px;
+        padding: 6px 15px 10px 15px !important;
+    }
+    #contact .notifications {
+        margin-bottom: -20px;
+    }
+}

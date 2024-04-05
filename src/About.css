@@ -1,0 +1,266 @@
+#aboutMe {
+    background: #235567;
+    font-family: 'Metropolis-Light', sans-serif;
+    letter-spacing: 1.2px;
+    /* background: linear-gradient(100deg, #4831D4 60%, #56ff6f 40%); */
+    background: rgb(2,0,36);
+    background: linear-gradient(100deg, rgba(2,0,36,1) 0%, rgba(72,49,212,1) 0%, rgba(86,255,111,1) 90%);
+}
+#aboutMe button {
+    border: solid 2px hsl(0, 0%, 100%);
+}
+
+.codingImageBox {
+    width: 400px;
+    height: 300px;
+    overflow: hidden;
+    margin-left: 20%;
+}
+.codingImage {
+    background-image: url('./images/coding.svg');
+    background-repeat: no-repeat;
+    background-size: auto 400px;
+    position: center top;
+    background-position-y: -80px;
+    margin-top: 40px;
+    width: 400px;
+    height: 300px;
+}
+.codingImage.code1 {
+    background-image: url('./images/coding1.svg') !important;
+}
+.codingImage.code2 {
+    background-image: url('./images/coding2.svg') !important;
+}
+.codingImage.code3 {
+    background-image: url('./images/coding3.svg') !important;
+}
+.qaDrop .element.btn1 {
+    background-color: #FFC100 !important;
+}
+.qaDrop .element.btn2 {
+    background-color: #C53F3F !important;
+}
+.qaDrop .element.btn3 {
+    background-color: #407BFF !important;
+}
+
+#aboutMe .qaDrop {
+    width: 100%;
+    margin-left: 15px;
+    margin-right: 10px;
+}
+#aboutMe .myDescription {
+    margin-top: 30px;
+    width: 60%;
+}
+
+.qaDrop .instruction {
+    font-weight: bold;
+    font-size: 20px;
+    padding: 10px;
+    color: #FFFFFF;
+    margin-left: 21%;
+}
+
+.qaElement {
+    margin-left: 15%;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    gap: 20px;
+}
+
+.qaDrop .element {
+    font-size: 20px;
+    color: #FFFFFF;
+    background-color: #3AB05B;
+    padding: 5px 10px;
+    border-radius: 30px;
+    cursor: move;
+    position: absolute;
+}
+#education {
+    position: absolute;
+    left: 0;
+}
+.education h3, .education p {
+    padding-bottom: 3px;
+    margin-right: 60px !important;
+}
+#technicalSkills {
+    position: absolute;
+    left: 150px;
+}
+.technicalSkillsTable td {
+    vertical-align: top;
+    padding-right: 30px;
+    padding-bottom: 10px;
+}
+.technicalSkills {
+    margin-left: 10%;
+}
+#facts {
+    position: absolute;
+    left: 370px;
+}
+.technicalSkills li, .facts li {
+    padding-bottom: 3px;
+}
+.technicalSkills h3 {
+    padding-bottom: 5px;
+}
+.facts {
+    margin-top: 10px;
+}
+.facts li {
+    text-align: justify;
+    line-height: 20px;
+    margin-left: 30px;
+    margin-right: 80px;
+}
+
+.qaDrop .element:last-child {
+    margin-right: 0;
+}
+.qaDrop .element.move-back {
+    transition: top 0.5s ease, left 0.5s ease;
+}
+
+.qaDrop img {
+    width: 400px;
+}
+
+#aboutMe .myImage {
+    text-align: center;
+}
+
+#aboutMe .myImage img {
+    width: 250px;
+    border-radius: 50%;
+}
+
+.qaAnswers .answer {
+    display: none;
+}
+.visible {
+    color: #FFFFFF;
+    display: block !important;
+}
+
+.myBasic {
+    color: #FFFFFF;
+}
+.myName {
+    font-family: 'Metropolis-Bold', sans-serif;
+    text-align: center;
+    margin-top: 10px;
+    color: #1b4352;
+}
+.myIntroduction {
+    text-align: justify;
+    margin: 5px 20px 0 5px;
+}
+.myIntroduction p {
+    line-height: 1.5;
+    font-weight: 700;
+    color: #1b4352;
+}
+
+.sourceCode a {
+    padding: 5px 10px;
+    border: solid 3px #FFFFFF;
+    border-radius: 30px;
+    background-color: #212529;
+    color: #FFFFFF;
+    font-weight: 800;
+    transition: transform .3s ease;
+    text-decoration: none;
+}
+.sourceCode a:hover {
+    background-color: #FFFFFF;
+    border: solid 3px #212529;
+    color: #212529;
+    cursor: pointer;
+    transition: .3s ease;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.8);
+    transform: scale(0.95);
+}
+.sourceCode a path{
+    fill: #FFFFFF;
+    transition: transform .3s ease;
+}
+.sourceCode a:hover path {
+    fill: #212529 ;
+    transition: .3s ease;
+}
+.sourceCode svg {
+    margin: 0 -1px -4px 5px;
+}
+
+.sourceCode {
+    text-align: center;
+    margin-top: 20px;
+    color: #212529;
+    font-weight: bold;
+    font-size: large;
+    padding: 5px 0 12px 0;
+    padding-left: -5px !important;
+    border: solid 3px #212529;
+    
+}
+
+@media screen and (max-width: 1100px) {
+    .myIntroduction p {
+        font-size: 16px !important;
+        line-height: 1.4 !important;
+    }
+    .sourceCode p {
+        font-size: 14px !important;
+        letter-spacing: .8px !important;
+    }
+}
+
+@media screen and (max-width: 870px) {
+    .instruction {
+        font-size: 16px !important;
+    }
+    .qaElement {
+        margin-left: 3%;
+    }
+    .codingImageBox {
+        width: 300px;
+        height: 300px;
+        overflow: hidden;
+        margin-left: 15%;
+        margin-top: -40px;
+    }
+    .codingImage {
+        background-repeat: no-repeat;
+        background-size: auto 300px;
+        position: center top;
+        background-position-y: -10px;
+        margin-top: 40px;
+        width: 300px;
+        height: 300px;
+    }
+    .qaDrop {
+        margin-right: 50px !important;
+    }
+    .qaAnswers .answer {
+        font-size: 12px !important;
+        line-height: 1.1 !important;
+    }
+
+    #aboutMe .myImage img {
+        width: 200px;
+    }
+    .myIntroduction p {
+        font-size: 14px !important;
+        line-height: 1.4 !important;
+    }
+    .sourceCode p {
+        font-size: 11px !important;
+        letter-spacing: 0.5px !important;
+    }
+}

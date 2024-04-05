@@ -1,0 +1,103 @@
+.menu {
+    font-family: 'Metropolis-Bold', sans-serif;
+}
+.menu a {
+    position: relative;
+    background: #444;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    border: none;
+    letter-spacing: 0.1rem;
+    font-size: 1rem;
+    padding: .5rem 1rem;
+    margin-top: 1rem;
+    transition: 0.2s;
+    border-radius: 30px;
+}
+
+.menu a:hover {
+    letter-spacing: 0.2rem;
+    padding: .6rem 1.1rem;
+    background: var(--clr);
+    color: var(--clr);
+    animation: box 3s infinite;
+}
+
+.menu a::before {
+    content: "";
+    position: absolute;
+    inset: 2px;
+    background: #272822;
+    border-radius: 30px;
+}
+
+.menu a span {
+    position: relative;
+    z-index: 1;
+}
+.menu a i {
+    position: absolute;
+    inset: 0;
+    display: block;
+}
+
+.menu a i::before {
+    content: "";
+    position: absolute;
+    width: 10px;
+    height: 2px;
+    left: 80%;
+    top: -2px;
+    border: 2px solid var(--clr);
+    background: #272822;
+    transition: 0.2s;
+}
+
+.menu a:hover i::before {
+    width: 15px;
+    left: 20%;
+    animation: move 3s infinite;
+}
+
+.menu a i::after {
+    content: "";
+    position: absolute;
+    width: 10px;
+    height: 2px;
+    left: 20%;
+    bottom: -2px;
+    border: 2px solid var(--clr);
+    background: #272822;
+    transition: 0.2s;
+}
+
+.menu a:hover i::after {
+    width: 15px;
+    left: 80%;
+    animation: move 3s infinite;
+}
+
+@keyframes move {
+    0% {
+    transform: translateX(0);
+    }
+    50% {
+    transform: translateX(5px);
+    }
+    100% {
+    transform: translateX(0);
+    }
+}
+
+@keyframes box {
+    0% {
+    box-shadow: #27272c;
+    }
+    50% {
+    box-shadow: 0 0 25px var(--clr);
+    }
+    100% {
+    box-shadow: #27272c;
+    }
+}

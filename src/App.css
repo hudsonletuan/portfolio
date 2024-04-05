@@ -1,0 +1,47 @@
+@font-face {
+  font-family: 'Metropolis-Bold';
+  src: url('woff2/Metropolis-Bold.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'Metropolis-Light';
+  src: url('woff2/Metropolis-Light.woff2') format('woff2');
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+body {
+  min-width: 820px;
+}
+
+section {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 20px;
+  box-sizing: border-box;
+  scroll-snap-align: center;
+}
+
+.menu {
+  position: fixed;
+  gap: 10px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: transparent;
+  z-index: 1000;
+}
+
+.App {
+  height: 100vh;
+  overflow-y: scroll;
+  scroll-snap-type: y mandatory;
+}
