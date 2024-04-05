@@ -68,7 +68,5 @@ Acknowledgments
 Contact
 -------
 
-* Email: [tuanquocle.contact@gmail.com](mailto:tuanquocle.contact@gmail.com)
-or
-* Email: [info@tuanle.top](info@tuanle.top)
+* Email: [tuanquocle.contact@gmail.com](mailto:tuanquocle.contact@gmail.com) or [info@tuanle.top](info@tuanle.top)
 * LinkedIn: [Tuan Le Quoc](https://www.linkedin.com/in/tuan-le-quoc-023198140/)
