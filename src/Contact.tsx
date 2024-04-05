@@ -28,13 +28,14 @@ const Contact: React.FC = () => {
                     text: text,
                 }),
             });
-
+            console.log("Response API:" + response)
             if (response.ok) {
                 setIsSuccess(true);
             } else {
                 setIsError(true);
             }
         } catch (error) {
+            console.log("Response API:" + error)
             setIsError(true);
         }
     };
