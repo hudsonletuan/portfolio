@@ -7,6 +7,10 @@
     width: 50%;
 }
 
+#journey table {
+    min-width: 940px;
+}
+
 #journey td h2 {
     cursor: pointer;
     color: #212529;
