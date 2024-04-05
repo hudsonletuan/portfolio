@@ -43,3 +43,25 @@
     background-color: #ff1100;
     transition: .2s ease;
 }
+
+@keyframes slideUp {
+    0%   {transform: translateY(100%); opacity: 0;}
+    100% {transform: translateY(0%); opacity: 1;}
+}
+
+.modal-content-slide-up {
+    animation-name: slideUp;
+    animation-duration: .8s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes slideOut {
+    0%   {transform: translateY(0%); opacity: 1;}
+    100% {transform: translateY(-100%); opacity: 0;}
+}
+
+.modal-content-slide-out {
+    animation-name: slideOut;
+    animation-duration: .8s;
+    animation-fill-mode: forwards;
+}
