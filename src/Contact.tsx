@@ -24,8 +24,10 @@ const Contact: React.FC = () => {
                     'Content-Type': 'application/json',
                 },
                 body: JSON.stringify({
-                    chat_id: chatId,
-                    text: text,
+                    name_input: nameInput,
+                    email_input: emailInput,
+                    phone_input: phoneInput,
+                    message_input: messageInput,
                 }),
             });
             console.log("Response API:" + response)
