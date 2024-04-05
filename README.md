@@ -1,46 +1,74 @@
-# Getting Started with Create React App
+Portfolio
+========
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Portfolio is a personal website that showcases my skills, experiences, and projects. It is built using React and TypeScript.
 
-## Available Scripts
+Features
+--------
 
-In the project directory, you can run:
+* **Responsive design**: The website is designed to be responsive and adapt to different screen sizes and devices.
+* **Smooth & Snap Scrolling**: The website has a scrolling mode that smoothly moves up and down to the sections with no gap.
+* **Animations**: The website uses animations to enhance the user experience and make it more engaging. You can try the drag-and-drop features that I built.
+* **Modal**: The website has a modal that displays additional information about my experiences and projects.
+* **Contact form**: The website has a contact form that allows visitors to send me a message.
 
-### `npm start`
+Technologies
+-------------
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+* **React**: A JavaScript library for building user interfaces.
+* **TypeScript**: A statically typed superset of JavaScript that adds type safety and other features.
+* **API**: An application programming interface (API) is a way for two or more computer programs or components to communicate with each other.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+Installation
+------------
 
-### `npm test`
+To run the project locally, follow these steps:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. Clone the repository:
+```bash
+git clone https://github.com/hudsonletuan/portfolio.git
+```
+2. Navigate to the project directory:
+```bash
+cd portfolio
+```
+3. Install the dependencies:
+```bash
+npm install
+```
+4. Start the development server:
+```bash
+npm start
+```
+The website should now be running at `http://localhost:3000`.
 
-### `npm run build`
+Usage
+-----
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+The website consists of several sections:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+* **About**: The section introduces myself and provides a brief overview of my skills and experiences as well as facts.
+* **Projects**: The project section lists some of the projects that I have been working on recently that are deployed or available for open source.
+* **Journey**: The experience section lists my jobs, education, and projects on a timeline.
+* **Contact**: The contact section has a form that allows visitors to send me a message and other contacts such as email or mobile phone or LinkedIn.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Contributing
+------------
 
-### `npm run eject`
+Contributions are welcome! If you find a bug or have a feature request, please open an issue or submit a pull request.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+License
+-------
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+This project is licensed under the MIT License.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+Acknowledgments
+----------------
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+Contact
+-------
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+* Email: [tuanquocle.contact@gmail.com](mailto:tuanquocle.contact@gmail.com)
+or
+* Email: [info@tuanle.top](info@tuanle.top)
+* LinkedIn: [Tuan Le Quoc](https://www.linkedin.com/in/tuan-le-quoc-023198140/)
