@@ -412,7 +412,7 @@ const About: React.FC = () => {
                                         <div className="otherSkills">
                                             <h3>Others</h3>
                                             <ul>
-                                                <li>Azure Cloud, AWS Cloud, Netlify</li>
+                                                <li>AWS, Microsoft Azure, Netlify</li>
                                                 <li>Git, REST API, RESTful API</li>
                                                 <li>HTML, CSS, WordPress, Wix</li>
                                             </ul>
