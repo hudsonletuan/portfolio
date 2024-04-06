@@ -8,12 +8,17 @@ interface ModalProps {
 }
 
 const Modal: React.FC<ModalProps> = ({ isOpen, onClose, children }) => {
+    const [isVisible, setIsVisible] = useState(false);
     const [isClosing, setIsClosing] = useState(false);
 
     useEffect(() => {
-        if (!isOpen) {
+        if (isOpen) {
+            setIsVisible(true);
+            setIsClosing(false);
+        } else if (isVisible) {
             setIsClosing(true);
             setTimeout(() => {
+                setIsVisible(false);
                 setIsClosing(false);
             }, 800);
         }
