@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'Metropolis-Bold';
-  src: url('woff2/Metropolis-Bold.woff2') format('woff2');
+  src: url('./woff2/Metropolis-Bold.woff2') format('woff2');
 }
 @font-face {
   font-family: 'Metropolis-Light';
-  src: url('woff2/Metropolis-Light.woff2') format('woff2');
+  src: url('./woff2/Metropolis-Light.woff2') format('woff2');
 }
 
 * {
