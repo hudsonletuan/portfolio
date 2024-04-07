@@ -89,7 +89,7 @@ const Journey: React.FC = () => {
                     <tr>
                         <td className="td-left" rowSpan={4}>
                             <h2 onClick={handleCollegeModalOpen}><div className="coi-img"></div>The College of Idaho</h2>
-                            <h3>Intern</h3>
+                            <h3>IT Intern</h3>
                             <p style={{fontSize: '14px'}}>02/2024 - 05/2024</p>
                         </td>
                     </tr>
