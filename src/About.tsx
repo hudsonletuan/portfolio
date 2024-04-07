@@ -397,9 +397,9 @@ const About: React.FC = () => {
                                             <h3>Programming Languages</h3>
                                             <ul>
                                                 <li>Python</li>
+                                                <li>C#</li>
                                                 <li>JavaScript</li>
                                                 <li>TypeScript</li>
-                                                <li>C#</li>
                                                 <li>Java</li>
                                                 <li>R</li>
                                                 <li>VBA on Excel</li>
