@@ -454,10 +454,10 @@ const About: React.FC = () => {
                         <h1>Tuan Quoc Le</h1>
                     </div>
                     <div className="myIntroduction">
-                        <p>I am a Full Stack Software Engineer and on my way to be a DevOps Engineer and Data Scientist 
+                        <p>I am a Full Stack Software Engineer and on my way to becoming a DevOps Engineer and Data Scientist 
                             (hopefully) soon. I am driven by the growth and variety of technology nowadays, 
                             from Artificial Intelligence or Machine Learning to Applications or Cyber 
-                            Security. I never believe that I was born smart, but I believe that the 
+                            Security. I never believed that I was born smart, but I believe that the 
                             eagerness to learn will make everyone smarter. I lead myself by the ideal 
                             of "if they can do it, I can do it, even better", it is only the matter of 
                             time and effort.
