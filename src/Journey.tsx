@@ -15,13 +15,13 @@ const Journey: React.FC = () => {
                 <p style={{textAlign: 'center', marginBottom: '10px'}}>February 2024 - May 2024</p>
                 <hr />
                 <div style={{marginTop: '10px', textAlign: 'justify', lineHeight: '24px'}}>
-                    <li>Providing application support to improve operational efficiency and data integrity.</li>
-                    <li>Working closely with the IT staffs to maintain the IT operations and infrastructure within the school including management, security, and administration.</li>
+                    <li>Create a web-based application called "Yotes Marketplace" for students and staff to exchange or give away personal stuff, build on Node.js, Express, Vue.js, MongoDB, HTML, CSS.</li>
+                    <li>Learn how to use Docker and implement CI/CD into the development process</li>
+                    <li>Manage and implement multi-factor authentication enforcement to all students and staff accounts</li>
+                    <li>Provide application support to improve operational efficiency and data integrity.</li>
+                    <li>Work closely with the IT staffs to maintain the IT operations and infrastructure within the school including management, security, and administration.</li>
                     <li>Creating the goods exchange and giveaway web application "Yotes Marketplace" for students and staffs using Node.js, Express, Vue, and MongoDB.</li>
                     <li>Collaborating with faculty, staff, and students to provide timely technical assistance.</li>
-                    <li>Integrating into the student helpdesk, addressing inquiries, planning solutions, and resolving support tickets.</li>
-                    <li>Working on a large unstructured support tickets database to train a model which then will be used to improve the support tickets by automate the submission process.</li>
-                    <li>Other small projects/tasks</li>
                 </div>
             </>
         );
