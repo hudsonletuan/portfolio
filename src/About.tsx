@@ -389,6 +389,7 @@ const About: React.FC = () => {
                                                 <li>Express</li>
                                                 <li>React JS</li>
                                                 <li>Spring Boot</li>
+                                                <li>Vue.js</li>
                                             </ul>
                                         </div>
                                     </td>
@@ -412,9 +413,9 @@ const About: React.FC = () => {
                                         <div className="otherSkills">
                                             <h3>Others</h3>
                                             <ul>
-                                                <li>AWS, Microsoft Azure, Netlify</li>
-                                                <li>Git, REST API, RESTful API</li>
-                                                <li>HTML, CSS, WordPress, Wix</li>
+                                                <li>AWS, Microsoft Azure, Netlify, Git</li>
+                                                <li>REST API, RESTful API, HTML, CSS</li>
+                                                <li>Bootstrap, Tailwind CSS, WordPress, Wix</li>
                                             </ul>
                                         </div>
                                     </td>
@@ -453,7 +454,7 @@ const About: React.FC = () => {
                         <h1>Tuan Quoc Le</h1>
                     </div>
                     <div className="myIntroduction">
-                        <p>I am a Full Stack Software Engineer and on my way to be a Data Scientist 
+                        <p>I am a Full Stack Software Engineer and on my way to be a DevOps Engineer and Data Scientist 
                             (hopefully) soon. I am driven by the growth and variety of technology nowadays, 
                             from Artificial Intelligence or Machine Learning to Applications or Cyber 
                             Security. I never believe that I was born smart, but I believe that the 
