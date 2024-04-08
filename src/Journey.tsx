@@ -11,7 +11,7 @@ const Journey: React.FC = () => {
         setModalContent(
             <>
                 <h2 style={{textAlign: 'center'}}>The College of Idaho - USA</h2>
-                <h3 style={{textAlign: 'center'}}>Intern</h3>
+                <h3 style={{textAlign: 'center'}}>IT Intern</h3>
                 <p style={{textAlign: 'center', marginBottom: '10px'}}>February 2024 - May 2024</p>
                 <hr />
                 <div style={{marginTop: '10px', textAlign: 'justify', lineHeight: '24px'}}>
@@ -41,7 +41,7 @@ const Journey: React.FC = () => {
                     <li>Creating Excel VBA software and online systems for human resources, payroll system, warehouse, lecture schedule, class timetable, and check-in management as well as other small projects.</li>
                     <li>Designing and managing the school's domain, hosting, websites, and web apps on a WordPress platform.</li>
                     <li>Data analyst for school projects.</li>
-                    <li>Planning, managing, and organizing curriculums, examinations, competitions, events, and activities with a consideration of levels of students.</li>
+                    <li>Planning, managing, and organizing class curriculums, examinations, competitions, events, and activities with a consideration of levels of students.</li>
                     <li>Planning enrollment, hiring English-speaker teachers, and teaching plans for the school English Center.</li>
                     <li>Creating study games on Articulate Storyline and PowerPoint.</li>
                     <li>Creating videos and images for promotion, advertisement, and events.</li>
@@ -66,9 +66,8 @@ const Journey: React.FC = () => {
                     <li>Working collaboratively with multiple departments to ensure the best possible outcome for all inquiries while minimizing touches and providing excellent customer service.</li>
                     <li>Evaluating applications, web search results, and business quoted via the web.</li>
                     <li>Working within the underwriting authority and obtaining underwriter approval when necessary.</li>
-                    <li>Strengthening customer relationships by providing excellent service through email communication.</li>
+                    <li>Strengthening customer relationships by providing service through email communication.</li>
                     <li>Applying critical thinking and underwriting mindset to all accounts.</li>
-                    <li>Completing departmental specific reports or projects.</li>
                 </div>
             </>
         )
