@@ -212,23 +212,21 @@
 
 @media screen and (max-width: 1300px), (max-height: 700px) {
     .codingImageBox {
-        width: 350px;
-        height: 250px;
+        width: 370px;
+        height: 270px;
     }
     .codingImage {
-        background-size: auto 300px;
-        background-position-y: -50px;
-        width: 350px;
-        height: 250px;
+        background-size: auto 320px;
+        background-position-y: -60px;
+        width: 370px;
+        height: 270px;
     }
     .instruction {
         font-size: 18px !important;
-        margin-bottom: -20px;
         margin-top: 20px;
     }
     .element {
         font-size: 14px !important;
-        margin-top: 15px;
     }
     .answer {
         font-size: 14px !important;
