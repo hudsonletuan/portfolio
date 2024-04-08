@@ -36,17 +36,16 @@ const Journey: React.FC = () => {
                 <p style={{textAlign: 'center', marginBottom: '10px'}}>July 2020 - August 2021</p>
                 <hr />
                 <div style={{marginTop: '10px', textAlign: 'justify', lineHeight: '24px'}}>
-                    <li>Creating, managing, and leading the digitizing-school projects as well as IT helpdesk.</li>
-                    <li>Working directly with the school's investors, directors, and other department chiefs to deploy projects.</li>
+                    <li>Work closely with high-level departments including­ investors, bosses, and department heads to come up with plans for using technology solutions in projects and operation systems.</li>
                     <li>Creating Excel VBA software and online systems for human resources, payroll system, warehouse, lecture schedule, class timetable, and check-in management as well as other small projects.</li>
-                    <li>Designing and managing the school's domain, hosting, websites, and web apps on a WordPress platform.</li>
-                    <li>Data analyst for school projects.</li>
-                    <li>Planning, managing, and organizing class curriculums, examinations, competitions, events, and activities with a consideration of levels of students.</li>
-                    <li>Planning enrollment, hiring English-speaker teachers, and teaching plans for the school English Center.</li>
-                    <li>Creating study games on Articulate Storyline and PowerPoint.</li>
-                    <li>Creating videos and images for promotion, advertisement, and events.</li>
-                    <li>Managing the student uniforms warehouse.</li>
-                    <li>Managing timekeeping reports.</li>
+                    <li>Lead and train teachers in learning to use the online lecture schedule, online learning management system, and Articulate Storyline.</li>
+                    <li>Design and manage the school's domain, hosting, websites, and web apps on a WordPress platform.</li>
+                    <li>Serve as a data analyst, using analytical abilities to help with making decisions for projects.</li>
+                    <li>Collaborate with educators, orchestrate teaching plans and organize tests, challenges, activities, and student events. The academic programs were customized to suit different learners' levels.</li>
+                    <li>For the school's English Center, be in charge of enrollment strategizing, hiring educators, and developing teaching approaches.</li>
+                    <li>Create study games on Articulate Storyline and PowerPoint.</li>
+                    <li>Create videos and images for promotion, advertisement, and events.</li>
+                    <li>Manage the student uniforms warehouse and oversee timekeeping reports.</li>
                 </div>
             </>
         )
