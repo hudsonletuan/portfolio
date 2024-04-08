@@ -5,7 +5,7 @@
   <a href="https://portfolio.tuanle.top"><img height="30px" src="https://img.shields.io/badge/Live%20Demo-success.svg?logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz48IS0tIFVwbG9hZGVkIHRvOiBTVkcgUmVwbywgd3d3LnN2Z3JlcG8uY29tLCBHZW5lcmF0b3I6IFNWRyBSZXBvIE1peGVyIFRvb2xzIC0tPg0KPHN2ZyB3aWR0aD0iODAwcHgiIGhlaWdodD0iODAwcHgiIHZpZXdCb3g9IjAgMCAxOTIgMTkyIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGZpbGw9Im5vbmUiPjxjaXJjbGUgY3g9Ijk2IiBjeT0iOTYiIHI9Ijc0IiBzdHJva2U9IiMwMDAwMDAiIHN0cm9rZS13aWR0aD0iMTIiLz48ZWxsaXBzZSBjeD0iOTYiIGN5PSI5NiIgc3Ryb2tlPSIjMDAwMDAwIiBzdHJva2Utd2lkdGg9IjEyIiByeD0iMzAiIHJ5PSI3NCIvPjxwYXRoIHN0cm9rZT0iIzAwMDAwMCIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIiBzdHJva2Utd2lkdGg9IjEyIiBkPSJNMjggNzJoMTM2TTI4IDEyMGgxMzYiLz48L3N2Zz4%3D"></a>
 </p>
 
-Portfolio is a personal website that showcases my skills, experiences, and projects. It is built using React and TypeScript. There is a contact form on the site that uses API to deliver the content, and because CORS blocks this API request, a server-side proxy is built by using AWS Lambda Function and AWS API Gateway to bypass the CORS policy. Since this repo is connected to AWS, the API fetch function is already modified to be deployed properly to AWS Amplify. To run this project locally, some changes need to be made in the code. Instruction below.
+Portfolio is a personal website that showcases my skills, experiences, and projects. It is built using Node.js, React JS, and TypeScript. There is a contact form on the site that uses API to deliver the content, and because CORS blocks this API request, a server-side proxy is built by using AWS Lambda Function and AWS API Gateway to bypass the CORS policy. Since this repo is connected to AWS, the API fetch function is already modified to be deployed properly to AWS Amplify. To run this project locally, some changes need to be made in the code. Instruction below.
 
 Features
 --------
@@ -19,7 +19,8 @@ Features
 Technologies
 -------------
 
-* **React**: A JavaScript library for building user interfaces.
+* **Node.js**: A cross-platform, open-source JavaScript runtime environment that can run on Windows, Linux, Unix, macOS, and more.
+* **React JS**: A JavaScript library for building user interfaces.
 * **TypeScript**: A statically typed superset of JavaScript that adds type safety and other features.
 * **API**: An application programming interface (API) is a way for two or more computer programs or components to communicate with each other.
 #### (For Deployment)
