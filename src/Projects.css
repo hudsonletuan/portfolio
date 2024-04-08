@@ -77,3 +77,13 @@
 .image-container:hover .overlay {
     opacity: 1;
 }
+
+@media screen and (max-width: 1300px), (max-height: 700px) {
+    .image-container img {
+        width: 380px;
+        height: 215px;
+    }
+    .overlay {
+        height: 215px;
+    }
+}

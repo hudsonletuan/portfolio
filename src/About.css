@@ -210,6 +210,43 @@
     
 }
 
+@media screen and (max-width: 1300px), (max-height: 700px) {
+    .codingImageBox {
+        width: 350px;
+        height: 250px;
+    }
+    .codingImage {
+        background-size: auto 300px;
+        background-position-y: -50px;
+        width: 350px;
+        height: 250px;
+    }
+    .instruction {
+        font-size: 18px !important;
+        margin-bottom: -20px;
+        margin-top: 20px;
+    }
+    .element {
+        font-size: 14px !important;
+        margin-top: 15px;
+    }
+    .answer {
+        font-size: 14px !important;
+        line-height: 1 !important;
+    }
+    #aboutMe .myImage img {
+        width: 220px;
+    }
+    .myIntroduction p {
+        font-size: 14px !important;
+        line-height: 1.2 !important;
+    }
+    .sourceCode p {
+        font-size: 14px !important;
+        letter-spacing: .8px !important;
+    }
+}
+
 @media screen and (max-width: 1100px) {
     .myIntroduction p {
         font-size: 16px !important;

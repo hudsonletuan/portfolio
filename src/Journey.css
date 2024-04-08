@@ -87,3 +87,44 @@
     transition: .2s ease;
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.8);
 }
+
+@media screen and (max-width: 1300px), (max-height: 700px) {
+    #journey table {
+        min-width: 1200px;
+    }
+    #journey td h4 {
+        font-size: 14px !important;
+        margin: 0px 0px -2px 0px;
+    }
+    #journey td p {
+        font-size: 12px !important;
+    }
+    #journey td h2 {
+        font-size: 20px !important;
+    }
+    #journey td h3 {
+        font-size: 16px !important;
+    }
+    .usli-img {
+        margin-bottom: -60px;
+        margin-left: 190px;
+        background-size: 80px 80px;
+        width: 80px;
+        height: 80px;
+    
+    }
+    .phoenix-img {
+        margin-bottom: -60px;
+        margin-left: 220px;
+        background-size: 80px 80px;
+        width: 80px;
+        height: 80px;
+    }
+    .coi-img {
+        margin-bottom: -60px;
+        margin-left: 300px;
+        background-size: 80px 80px;
+        width: 80px;
+        height: 80px;
+    }
+}
