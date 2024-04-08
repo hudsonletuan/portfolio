@@ -16,11 +16,10 @@ const Journey: React.FC = () => {
                 <hr />
                 <div style={{marginTop: '10px', textAlign: 'justify', lineHeight: '24px'}}>
                     <li>Create a web-based application called "Yotes Marketplace" for students and staff to exchange or give away personal stuff, build on Node.js, Express, Vue.js, MongoDB, HTML, CSS.</li>
-                    <li>Learn how to use Docker and implement CI/CD into the development process</li>
-                    <li>Manage and implement multi-factor authentication enforcement to all students and staff accounts</li>
+                    <li>Learn how to use Docker and implement CI/CD into the development process.</li>
+                    <li>Manage and implement multi-factor authentication (MFA) enforcement to all students and staff accounts.</li>
                     <li>Provide application support to improve operational efficiency and data integrity.</li>
-                    <li>Work closely with the IT staffs to maintain the IT operations and infrastructure within the school including management, security, and administration.</li>
-                    <li>Creating the goods exchange and giveaway web application "Yotes Marketplace" for students and staffs using Node.js, Express, Vue, and MongoDB.</li>
+                    <li>Work closely with the IT staff to maintain the IT operations and infrastructure within the school including management, security, and administration.</li>
                     <li>Collaborating with faculty, staff, and students to provide timely technical assistance.</li>
                 </div>
             </>
@@ -41,7 +40,7 @@ const Journey: React.FC = () => {
                     <li>Lead and train teachers in learning to use the online lecture schedule, online learning management system, and Articulate Storyline.</li>
                     <li>Design and manage the school's domain, hosting, websites, and web apps on a WordPress platform.</li>
                     <li>Serve as a data analyst, using analytical abilities to help with making decisions for projects.</li>
-                    <li>Collaborate with educators, orchestrate teaching plans and organize tests, challenges, activities, and student events. The academic programs were customized to suit different learners' levels.</li>
+                    <li>Collaborate with educators, orchestrate teaching plans, and organize tests, challenges, activities, and student events. The academic programs were customized to suit different learners' levels.</li>
                     <li>For the school's English Center, be in charge of enrollment strategizing, hiring educators, and developing teaching approaches.</li>
                     <li>Create study games on Articulate Storyline and PowerPoint.</li>
                     <li>Create videos and images for promotion, advertisement, and events.</li>
