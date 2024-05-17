@@ -15,7 +15,7 @@ const Journey: React.FC = () => {
                 <p style={{textAlign: 'center', marginBottom: '10px'}}>February 2024 - May 2024</p>
                 <hr />
                 <div style={{marginTop: '10px', textAlign: 'justify', lineHeight: '24px'}}>
-                    <li>Create a web-based application called "Yotes Marketplace" for students and staff to exchange or give away personal stuff, build on Node.js, Express, Vue.js, MongoDB, HTML, CSS.</li>
+                    <li>Developed a full-stack single-page web application called "Yotes Marketplace" from scratch for the college community to sell, buy, exchange, or give away items, build on Node.js, Express, Vue.js, MongoDB, and HTML5/CSS3.</li>
                     <li>Learn how to use Docker, write unit tests, and implement CI/CD into the development process.</li>
                     <li>Manage and implement multi-factor authentication (MFA) enforcement to all students and staff accounts.</li>
                     <li>Provide application support to improve operational efficiency and data integrity.</li>

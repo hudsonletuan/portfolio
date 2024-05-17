@@ -12,12 +12,26 @@ const Projects: React.FC = () => {
         <section id="projects" className="section">
             <div className="projects-container">
                 <div className="firstRow projects-row">
+                    <div className="market-place">
+                        <div className="image-container">
+                            <img src={marketPlace} alt="Yotes Marketplace" />
+                            <div className="overlay">
+                                <div className="overlay-elements">
+                                    <p>A web-based social media application created for the College of Idaho students and staff focusing on exchange or give away personal items. This application allows people to create posts with media files attached, send private messages in real-time, update, label, and search for posts and conversations.</p>
+                                    <div className="overlay-actions">
+                                        <a href="https://github.com/hudsonletuan/yotes-marketplace" target="_blank" className="overlay-link">GitHub</a>
+                                        <a href="https://yotesplace.tuanle.top/" target="_blank" className="overlay-link">View Application</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                     <div className="hr-manager">
                         <div className="image-container">
                             <img src={hrManagerImg} alt="Human Resources Manager" />
                             <div className="overlay">
                                 <div className="overlay-elements">
-                                    <p>A web-based application created to manage employee information for a company. The application allows users to create, read, update, and delete employee records, as well as import employee data from EXCEL and CSV files and export employee data to Excel, PDF, and CSV files.</p>
+                                    <p>A web-based single page application to manage employee information for a company. The application allows users to create, read, update, and delete employee records, as well as import employee data from EXCEL and CSV files and export employee data to Excel, PDF, and CSV files.</p>
                                     <div className="overlay-actions">
                                         <a href="https://github.com/hudsonletuan/human-resources-manager" target="_blank" className="overlay-link">GitHub</a>
                                         <a href="https://tuanle-hr.azurewebsites.net/" target="_blank" className="overlay-link">View Application</a>
@@ -40,6 +54,8 @@ const Projects: React.FC = () => {
                             </div>
                         </div>
                     </div>
+                </div>
+                <div className="secondRow projects-row">
                     <div className="face-recognition">
                         <div className="image-container">
                             <img src={faceRegImg} alt="Real-time Face Recognition" />
@@ -48,21 +64,6 @@ const Projects: React.FC = () => {
                                     <p>This project is a real-time face recognition application. This Python application uses the OpenCV library and the pre-trained model VGGFace for running and training. This recognizes faces appearing on the camera and will run through the face database saved locally to display the name on the frame of the person recognized on the camera.</p>
                                     <div className="overlay-actions">
                                         <a href="https://github.com/hudsonletuan/realtime-face-recognition" target="_blank" className="overlay-link">GitHub</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div className="secondRow projects-row">
-                    <div className="market-place">
-                        <div className="image-container">
-                            <img src={marketPlace} alt="Yotes Marketplace" />
-                            <div className="overlay">
-                                <div className="overlay-elements">
-                                    <p>A web-based application created for the College of Idaho students and staff to exchange or give away stuff. This web application allows people to create posts, send private messages in real-time, update the stuff's status (Available/Not Available), and label, search, and sort stuff.</p>
-                                    <div className="overlay-actions">
-                                        <a href="https://github.com/hudsonletuan/yotes-marketplace" target="_blank" className="overlay-link">GitHub</a>
                                     </div>
                                 </div>
                             </div>

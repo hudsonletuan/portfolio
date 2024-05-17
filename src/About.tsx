@@ -387,9 +387,9 @@ const About: React.FC = () => {
                                                 <li>ASP.NET Core MVC</li>
                                                 <li>Node.js</li>
                                                 <li>Express</li>
+                                                <li>Vue.js</li>
                                                 <li>React JS</li>
                                                 <li>Spring Boot</li>
-                                                <li>Vue.js</li>
                                             </ul>
                                         </div>
                                     </td>
@@ -399,8 +399,8 @@ const About: React.FC = () => {
                                             <ul>
                                                 <li>Python</li>
                                                 <li>C#</li>
-                                                <li>JavaScript</li>
                                                 <li>TypeScript</li>
+                                                <li>JavaScript</li>
                                                 <li>Java</li>
                                                 <li>R</li>
                                                 <li>VBA on Excel</li>
@@ -414,8 +414,8 @@ const About: React.FC = () => {
                                             <h3>Others</h3>
                                             <ul>
                                                 <li>AWS, Microsoft Azure, Netlify, Git</li>
-                                                <li>REST API, RESTful API, HTML, CSS</li>
-                                                <li>Bootstrap, Tailwind CSS, WordPress, Wix</li>
+                                                <li>Docker, REST API, RESTful API</li>
+                                                <li>Socket.IO, Bootstrap, Tailwind CSS, WordPress, Wix, HTML5/CSS3</li>
                                             </ul>
                                         </div>
                                     </td>
@@ -424,7 +424,7 @@ const About: React.FC = () => {
                                             <h3>Database Management Systems</h3>
                                             <ul>
                                                 <li>PostgreSQL</li>
-                                                <li>SQL Server</li>
+                                                <li>Microsoft SQL Server</li>
                                                 <li>MongoDB</li>
                                             </ul>
                                         </div>
